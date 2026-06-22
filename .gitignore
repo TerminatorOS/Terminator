@@ -1,0 +1,4 @@
+core/__pycache__/
+*.pkg.tar.zst
+src/
+pkg/
