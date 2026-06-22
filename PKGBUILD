@@ -2,7 +2,7 @@ pkgname=terminator-package-manager
 pkgver=0.1
 pkgrel=1
 pkgdesc="Terminator Game Package Manager"
-arch=('any')
+arch=('x86_64')
 depends=('python' 'wget')
 license=('GPL3')
 
