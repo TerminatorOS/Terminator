@@ -1,4 +1,4 @@
-pkgname=terminator
+pkgname=terminator-package-manager
 pkgver=0.1
 pkgrel=1
 pkgdesc="Terminator Game Package Manager"
@@ -20,5 +20,5 @@ package() {
     mkdir -p "$pkgdir/usr/bin"
 
     ln -s /terminator/files/cli.py \
-        "$pkgdir/usr/bin/terminator"
+        "$pkgdir/usr/bin/terminator-pm"
 }
